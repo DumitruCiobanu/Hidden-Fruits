@@ -3,6 +3,7 @@ body {
   height: 100vh;
   margin: 0px;
   overflow: hidden;
+  cursor: pointer;
 }
 
 #gallery {
@@ -19,11 +20,13 @@ body {
 
 .tile:hover {
   transform: scale(1.1);
+ 
 }
 
 .tile:hover > img {
   opacity: 1;
   transform: scale(1.1);
+  cursor: none;
 }
 
 .tile > img {
@@ -92,7 +95,7 @@ body {
 }
 
 .tile:nth-child(8) {
-  background-color: #1dd3b0;
+  background-color: #ca1e60;
   height: 24%;
   width: 18%;
   left: 72%;
